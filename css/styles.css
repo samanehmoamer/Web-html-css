@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #ffba31;
+    color: #fff;
+    text-align: center;
+    padding: .em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#hero {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.button {
+    background-color: #e48c26;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #c7781a;
+}
+
+#products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1em;
+    width: 22%;
+    text-align: center;
+    margin: 60px;
+    border-radius: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: .1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 10px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4adea3;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+#product-details {
+    text-align: center;
+}
+
+.product-image-container {
+    margin: 20px auto; /* تغییر مارجین به auto برای مرکز کردن افقی */
+}
+
+#product-image {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* افزودن سایه به تصویر */
+}
+
+
+form button:hover {
+    background-color: #3bcf94;
+}
